@@ -45,4 +45,4 @@ This project demonstrates basic web structure, semantic HTML, custom styling wit
 
 ## 📂 Credit/Acknowledgement
 
--
+- Images used from https://Flaticon.com and https://www.pexels.com/
