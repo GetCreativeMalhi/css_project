@@ -1,33 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Layout Lab</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <div class="header_container">
-    <div class="header">
-        <div class="left">
-            <img src="images/deviant.png" alt="Header Logo">
+    <div class="header_container">
+        <div class="header">
+            <div class="header_left">
+                <img src="images/logo1.png" alt="Header Logo">
+            </div>
+            <div class="header_right">
+                <a href="#">HTML 5</a>
+                <a href="#">CSS 3</a>
+                <a href="#">Flexbox Layout</a>
+            </div>
         </div>
-        <div class="right">
-            <a href="#">HTML 5</a>
-            <a href="#">CSS 3</a>
-            <a href="#">Flexbox Layout</a>
+        <div class="sub_header_container">
+            <div class="content">
+                <h1>Building Websites from scratch</h1>
+                <p>From simple tags to responsive layouts — learn how to bring your ideas to life on the web.
+                    Master the essentials of HTML, CSS, and Flexbox to create websites that look great on any device</p>
+                <button>Sign up</button>
+            </div>
+            <div class="headerimage">
+                <img src="images/header.png" alt="this is a placeholder for an image">
+            </div>
         </div>
     </div>
-    <div class="sub_header_container">
-        <div class="content">
-            <h1>Building Modern Websites from scratch</h1>
-            <p>From simple tags to responsive layouts — learn how to bring your ideas to life on the web</p>
+    <div class="body_content">
+        <div class="body_heading">
+            <h1>Your Website Journey Starts Here</h1>
+        </div>
+        <div class="tiles">
+            <div class="tile" id="first">
+                <img src="images/our_services.png" alt="Our Services">
+                <p>We create modern, responsive websites tailored to your business needs — from simple landing pages to
+                    full e-commerce stores</p>
+            </div>
+            <div class="tile" id="second">
+                <img src="images/why_choose_us.png" alt="Why Choose Us">
+                <p>Affordable packages, SEO-ready designs, and ongoing support mean your website not only looks great
+                    but also delivers results</p>
+            </div>
+            <div class="tile" id="third">
+                <img src="images/our_work.png" alt="Our Work">
+                <p>Take a look at some of our recent projects — clean, user-friendly designs that help businesses
+                    connect with their customers online</p>
+            </div>
+            <div class="tile" id="fourth">
+                <img src="images/get_started.png" alt="Get Started">
+                <p>Ready to grow your online presence? Contact us today for a free consultation and let’s bring your
+                    website idea to life</p>
+            </div>
+        </div>
+        <div class="body_quote">
+            <div>
+                <p>“Your website is the center of your digital ecosystem, like a brick‑and‑mortar location. The
+                    experience matters once a customer enters, just as much as the perception they have of you before
+                    they walk through the door.”</p>
+            </div>
+            <div>
+                <h2> -Neil Patel</h2>
+            </div>
+        </div>
+    </div>
+    <div class="sign_up">
+        <div>
+            <h3>Call to action! it's time!</h3>
+            <p>Sign up for our product by clicking that button right over there</p>
+        </div>
+        <div>
             <button>Sign up</button>
         </div>
-        <div class="headerimage">
-            <img src="images/Header.jpg" alt="this is a placeholder for an image">
-        </div>
     </div>
-   </div>
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
+
 </html>

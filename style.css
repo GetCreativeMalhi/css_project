@@ -4,25 +4,28 @@
     box-sizing: border-box;
 }    
 
+/********************** Header Section *******************/
+
 .header_container {
     background-color: #1F2937;
     font-family: Roboto, "Open Sans", Poppins;
-    padding: 20px 150px 70px 150px;
+    padding: 0px 150px 70px 150px;
     margin:auto;
     min-width: 1300px;
+
 
 }
 
 .header {
     display: flex;
-    align-items:flex-start;
+    align-items:center;
     justify-content:space-between;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .header img {
     margin-right: 221px;
-    width: 90px;
+    width: 150px;
     height: auto;
     font-size: 24px;
     color: #F9FAF8;
@@ -66,9 +69,98 @@ button {
     border-style: hidden;
 }
 
+.content button {
+    margin-top: 75px;
+}
+
 .headerimage img {
     width: 350px;
-    height: 170px;
+    height: auto;
    
 }
 
+/************************ Body Section  **********************/
+.body_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body_heading {
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.body_heading h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tile {
+    width: 200px;
+    height: 300px;
+}
+
+.tile img {
+    width: 200px;
+    height: auto;
+}
+
+.body_quote {
+    margin-top: 100px;
+    padding: 120px 320px;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.body_quote div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.body_quote div h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: max-content;
+}
+
+/************** Sign Up  Section****************/
+
+.sign_up {
+    display: flex;
+    margin: 70px 220px;
+    justify-content: space-between;
+    background-color: #3883F6;
+    padding: 40px 100px;
+    border-radius: 5px;
+    color: white;
+}
+
+.sign_up button {
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px 100px;
+    color: #F9FAF8;
+}
